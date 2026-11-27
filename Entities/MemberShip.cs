@@ -13,7 +13,7 @@ namespace GymSystem.Entities
 
         [NotMapped]
         public string Status => StartDate > DateTime.Now ? "UpComming"
-                                : EndDate > DateTime.Now ? "Actie"
+                                : EndDate > DateTime.Now ? "Active"
                                 : "Expired";
 
     }
